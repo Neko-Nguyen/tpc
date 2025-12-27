@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsjpjdr0m1rsk"]
+
+[ext_resource type="PackedScene" uid="uid://dax1rip2d863r" path="res://scenes/player/player.tscn" id="1_8c831"]
+[ext_resource type="Script" uid="uid://r6etsrcn6snt" path="res://scripts/player/Player.gd" id="2_2vptm"]
+
+[node name="PlayGround" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_8c831")]
+position = Vector2(242, 131)
+script = ExtResource("2_2vptm")
